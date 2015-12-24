@@ -12,6 +12,7 @@
 		B512CF411C2BA30D002B580A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B512CF3F1C2BA30D002B580A /* MainMenu.xib */; };
 		B512CF4A1C2BCB12002B580A /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B512CF481C2BCB11002B580A /* QuotesViewController.swift */; };
 		B512CF4B1C2BCB12002B580A /* QuotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B512CF491C2BCB12002B580A /* QuotesViewController.xib */; };
+		B5AC7EF31C2BDB590077EA59 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AC7EF21C2BDB590077EA59 /* Quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B512CF421C2BA30D002B580A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B512CF481C2BCB11002B580A /* QuotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 		B512CF491C2BCB12002B580A /* QuotesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuotesViewController.xib; sourceTree = "<group>"; };
+		B5AC7EF21C2BDB590077EA59 /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				B512CF3B1C2BA30D002B580A /* AppDelegate.swift */,
 				B512CF481C2BCB11002B580A /* QuotesViewController.swift */,
 				B512CF491C2BCB12002B580A /* QuotesViewController.xib */,
+				B5AC7EF21C2BDB590077EA59 /* Quote.swift */,
 				B512CF3D1C2BA30D002B580A /* Assets.xcassets */,
 				B512CF3F1C2BA30D002B580A /* MainMenu.xib */,
 				B512CF421C2BA30D002B580A /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B512CF3C1C2BA30D002B580A /* AppDelegate.swift in Sources */,
+				B5AC7EF31C2BDB590077EA59 /* Quote.swift in Sources */,
 				B512CF4A1C2BCB12002B580A /* QuotesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +281,7 @@
 				B512CF471C2BA30D002B580A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
