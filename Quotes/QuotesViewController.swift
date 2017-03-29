@@ -25,7 +25,7 @@ class QuotesViewController: NSViewController {
     }
     
     func updateQuote() {
-        textLabel.stringValue = String(quotes[currentQuoteIndex])
+        textLabel.stringValue = String(describing: quotes[currentQuoteIndex])
     }
 
     override func viewDidLoad() {
@@ -37,15 +37,15 @@ class QuotesViewController: NSViewController {
 // MARK: Actions
 
 extension QuotesViewController {
-    @IBAction func goLeft(sender: NSButton) {
+    @IBAction func goLeft(_ sender: NSButton) {
         currentQuoteIndex = (currentQuoteIndex - 1 + quotes.count) % quotes.count
     }
     
-    @IBAction func goRight(sender: NSButton) {
+    @IBAction func goRight(_ sender: NSButton) {
         currentQuoteIndex = (currentQuoteIndex + 1) % quotes.count
     }
     
-    @IBAction func quit(sender: NSButton) {
-        NSApplication.sharedApplication().terminate(sender)
+    @IBAction func quit(_ sender: NSButton) {
+        NSApplication.shared().terminate(sender)
     }
 }
